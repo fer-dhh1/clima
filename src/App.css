@@ -1,0 +1,59 @@
+/*------Reset-------*/
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+img {
+  display: inline-block;
+  max-width: 100%;
+  min-height: 100%;
+  object-fit: contain;
+}
+
+ul {
+  list-style: none;
+}
+
+input, button {
+  display: inline-block;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+button {
+  background-color: #d8d0d088;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: transform .5s;
+}
+
+button:hover {
+  transform: scale(1.1);
+  transition: transform .5s;
+}
+
+/*------Reset-------*/
+
+.app {
+  background-image: url(./background.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
